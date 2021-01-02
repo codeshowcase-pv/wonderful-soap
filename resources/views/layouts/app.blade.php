@@ -10,6 +10,11 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="flex bg-chudo-200">
+        <div>CHUDESNOE</div>
+        <div>Menu</div>
+        <div id="app"></div>
+    </div>
     @yield('content')
 </body>
 </html>
