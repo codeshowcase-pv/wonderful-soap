@@ -1,5 +1,10 @@
 @import "tailwind";
 
+body {
+    height: 100vh;
+    padding: 0;
+}
+
 // Fonts
 @font-face {
     font-family: 'Caveat', cursive;
@@ -8,4 +13,8 @@
 
 *{
     font-family: "Caveat";
+}
+
+button{
+    outline: none !important;
 }
