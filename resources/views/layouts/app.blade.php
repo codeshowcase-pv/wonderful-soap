@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="flex bg-chudo-200">
-        <div>CHUDESNOE</div>
+        <h1 class="text-3xl">CHUDESNOE</h1>
         <div>Menu</div>
         <div id="app"></div>
     </div>
