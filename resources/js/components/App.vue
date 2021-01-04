@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col h-full">
-        <top></top>
+        <header_component></header_component>
         <router-view></router-view>
         <footer_component></footer_component>
     </div>
@@ -8,14 +8,14 @@
 </template>
 
 <script>
-    import top from "./header";
+    import header_component from "./header";
     import body_component from "./body";
     import footer_component from "./footer";
 
     export default {
         name: "App",
         components:{
-            top,
+            header_component,
             body_component,
             footer_component
         },

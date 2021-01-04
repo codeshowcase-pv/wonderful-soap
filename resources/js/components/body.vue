@@ -9,6 +9,8 @@
 </template>
 
 <script>
+    import menu_component from "./menu/menu";
+
     export default {
         name: "body-component",
         components: {

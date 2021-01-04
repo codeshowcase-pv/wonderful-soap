@@ -1,7 +1,10 @@
 <template>
     <div>
         <router-link :to="{path: url}">
-            <div class="flex flex-col items-center flex-wrap gap-6">
+            <div
+                class="flex flex-col items-center flex-wrap gap-6 p-5 rounded"
+                :class="[active ? 'bg-chudo-200' : 'bg-chudo-100']"
+            >
                 <div class="w-48 h-48 bg-chudo-300 rounded shadow-lg border-2 border-chudo-400 overflow-hidden">
                     <img :src="img" :alt="title">
                 </div>
@@ -15,11 +18,8 @@
 
 <script>
     export default {
-        props: ['title', 'img', 'url'],
+        props: ['title', 'img', 'url', 'active'],
         name: "menu-item-component",
-        created() {
-            console.log(this.$props);
-        }
     }
 </script>
 

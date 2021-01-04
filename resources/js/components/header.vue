@@ -2,7 +2,9 @@
     <div class="bg-chudo-200 w-full flex justify-center flex-grow-0">
         <div class="container py-4">
             <header class="flex w-full justify-between align-items-center">
-                <h1 class="text-4xl text-chudo-300">CHUDESNOE</h1>
+                <a href="/">
+                    <h1 class="text-4xl text-chudo-300">CHUDESNOE</h1>
+                </a>
                 <div class="flex justify-content-between align-items-center">
                     <span class="h-6 w-6 mt-2 text-chudo-400">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
