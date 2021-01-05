@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full justify-center gap-20 flex-wrap mb-16">
+    <div class="flex w-full justify-center gap-4 sm:gap-20 flex-wrap mb-16">
         <menu_item_component
             v-for="(item, key) in items"
             :key="key"

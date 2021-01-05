@@ -38948,7 +38948,9 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "flex w-full justify-center gap-20 flex-wrap mb-16" },
+    {
+      staticClass: "flex w-full justify-center gap-4 sm:gap-20 flex-wrap mb-16"
+    },
     _vm._l(_vm.items, function(item, key) {
       return _c("menu_item_component", {
         key: key,
