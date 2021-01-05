@@ -2105,6 +2105,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "header-component"
 });
@@ -38799,7 +38802,10 @@ var render = function() {
       _c("div", { staticClass: "container py-4" }, [
         _c(
           "header",
-          { staticClass: "flex w-full justify-between align-items-center" },
+          {
+            staticClass:
+              "flex w-full\n        flex-col items-center gap-3\n        sm:flex-row sm:justify-between sm:align-center sm-gap-0\n        flex-wrap"
+          },
           [
             _vm._m(0),
             _vm._v(" "),

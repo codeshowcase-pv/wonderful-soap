@@ -1,7 +1,10 @@
 <template>
     <div class="bg-chudo-200 w-full flex justify-center flex-grow-0">
         <div class="container py-4">
-            <header class="flex w-full justify-between align-items-center">
+            <header class="flex w-full
+            flex-col items-center gap-3
+            sm:flex-row sm:justify-between sm:align-center sm-gap-0
+            flex-wrap">
                 <a href="/">
                     <h1 class="text-4xl text-chudo-300">CHUDESNOE</h1>
                 </a>
