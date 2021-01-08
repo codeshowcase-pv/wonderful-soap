@@ -11,10 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="app" class="h-full">
-        <app-component></app-component>
-    </div>
     @yield('content')
-    <script src="js/app.js"></script>
 </body>
 </html>
