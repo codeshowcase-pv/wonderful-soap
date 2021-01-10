@@ -11,13 +11,21 @@ window.Vue = require('vue');
 
 Vue.component('app-component', require('./components/App.vue').default);
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
 const app = new Vue({
     el: '#app',
     router
+});
+
+
+// admin
+import VueMaterial from "vue-material";
+import 'vue-material/dist/vue-material.min.css';
+import 'vue-material/dist/theme/default.css';
+
+Vue.use(VueMaterial);
+
+Vue.component('admin-component', require('./admin/admin.vue').default);
+
+const admin_app = new Vue({
+    el: '#admin'
 });
